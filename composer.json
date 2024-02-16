@@ -1,0 +1,21 @@
+{
+    "name": "ewebovky/ares",
+    "description": "API konektor pro Administrativní registr ekonomických subjektů (ARES)",
+    "type": "library",
+    "require": {
+        "tcdent/php-restclient": "0.1.8.*",
+        "php": ">=7.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ewebovky\\Ares\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Václav Pavlů",
+            "email": "pavlu@ewebovky.cz"
+        }
+    ]
+}
