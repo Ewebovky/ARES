@@ -1,8 +1,9 @@
-
 # Ewebovky/ARES
 
 API konektor pro Administrativní registr ekonomických subjektů (ARES)
 
+## Autor
+Václav Pavlů - Ewebovky, s.r.o. | pavlu@ewebovky.cz | https://www.ewebovky.cz
 
 ## Instalace
 
