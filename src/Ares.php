@@ -1,12 +1,12 @@
 <?php
 
-namespace Ewebovky\ARES;
+namespace Ewebovky\Ares;
 
 use RestClient;
 
 const BASE_URL = "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest";
 
-class ARES
+class Ares
 {
     public function searchSubjects(string|int $search)
     {
