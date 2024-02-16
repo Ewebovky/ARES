@@ -10,7 +10,7 @@ Václav Pavlů - Ewebovky, s.r.o. | pavlu@ewebovky.cz | https://www.ewebovky.cz
 ```bash
 composer require ewebovky/ares
 ```
-    
+
 Registrace služby v Symfony
 ```php
 # config/services.yaml
