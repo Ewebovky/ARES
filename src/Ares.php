@@ -8,7 +8,7 @@ const BASE_URL = "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest";
 
 class Ares
 {
-    public function searchSubjects(string|int $search)
+    public function searchSubjects(string $search)
     {
         if ($this->verifyIC($search)) {
             return array($this->vratEkonomickySubjekt($search));
@@ -17,7 +17,7 @@ class Ares
         }
     }
 
-    public function vratEkonomickySubjekt(int $ico)
+    public function vratEkonomickySubjekt(string $ico)
     {
         $api = new RestClient(['base_url' => BASE_URL]);
 
